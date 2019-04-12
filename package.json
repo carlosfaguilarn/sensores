@@ -1,0 +1,17 @@
+{
+  "name": "arduino-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "reset": "firmata-party uno --debug",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firmata-party": "^1.5.10",
+    "johnny-five": "^1.0.0"
+  }
+}
